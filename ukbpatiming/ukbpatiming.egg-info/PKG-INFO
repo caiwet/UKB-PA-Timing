@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: ukbpatiming
+Version: 0.1.0
+Summary: A python package for computing timing of device-measured physical activity from UKBiobank.
+Home-page: https://github.com/caiwet/PA-Timing-Package
+License: UNKNOWN
+Description: # Timing of Device-Measured Physical Activity from UK Biobank
+        
+        This is a tool to get information about how much exercise people perform during the morning, afternoon and evening based on accelerometer-measured data from UK Biobank. The input should be pre-processed raw data with biobank Accelerometer Analysis. For more detail, see https://github.com/OxWearables/biobankAccelerometerAnalysis.
+        
+        ## Installation
+        
+        ```css
+        pip install ukbpatiming
+        ```
+        ## Usage
+        
+        This tool enables PA average over the whole measurement period, weekday only and weekend only. See example/example.py for more information.
+        
+        # CHANGELOG
+        
+        ## Version 0.0.1 01/12/2023
+        1. Upaded the package
+        
+Keywords: UK Biobank,Physical Activity,Time
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
